@@ -5,7 +5,7 @@ module.exports = Object.freeze({
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: ['YIFY'], // Files/top level directories with these substrings in the filename won't be downloaded
-  ARIA_PORT: 6800, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
+  ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   GDRIVE_PARENT_DIR_ID: '1kfCKERILGR3aXyibIZkwb3wF4NhKevr1',
   SUDO_USERS: [591530116],
   AUTHORIZED_CHATS: [],
